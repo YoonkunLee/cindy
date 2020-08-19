@@ -11,11 +11,6 @@ import project1 from '../images/Project 1/Thumbnail.jpg'
 import '../CSS/MainPortfolio.css'
 
 export default class Portfolio extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {hovered: false};
-      }
-
     render(){
         return (
             <div class="container-fluid">
