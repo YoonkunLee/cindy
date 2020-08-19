@@ -37,7 +37,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="#"></a>
+                                <a href="../PortfolioDetail/LucidStand"></a>
                             </figcaption>			
                         </figure>
                         <figure class="effect-lily">
@@ -46,7 +46,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="#"></a>
+                                <a href="../PortfolioDetail/LucidStand"></a>
                             </figcaption>			
                         </figure>
                         <figure class="effect-lily">
@@ -55,7 +55,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="#"></a>
+                                <a href="../PortfolioDetail/LucidStand"></a>
                             </figcaption>			
                         </figure>
                         <figure class="effect-lily">
@@ -64,7 +64,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="#"></a>
+                                <a href="../PortfolioDetail/LucidStand"></a>
                             </figcaption>			
                         </figure>
                         <figure class="effect-lily">
@@ -73,7 +73,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="#"></a>
+                                <a href="../PortfolioDetail/LucidStand"></a>
                             </figcaption>			
                         </figure>
                     </div>                   
