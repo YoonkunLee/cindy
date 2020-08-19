@@ -13,7 +13,7 @@ export default class MainBanner extends Component {
                 <div style={bannerButton}>
                     <Link to="./AboutMe" class="btn btn-outline-light btn-lg ">Learn More</Link>
                 </div>
-            </div>            
+            </div>     
         );
     }
 }
