@@ -14,8 +14,8 @@ export default class App extends Component {
           <NavMenu />
           <div style={bannerStyle}>
             <Route exact path="/" component={Home} />
-            <Route path="AboutMe" component={AboutMe} />
-            <Route path="PortfolioDetail/:id" component={PortfolioDetail} />
+            <Route path="/AboutMe" component={AboutMe} />
+            <Route path="/PortfolioDetail/:id" component={PortfolioDetail} />
           </div>         
           <div className="w-100 mt-5" />
               <footer className="footer-copyright text-center footer-green py-3 botton-0 letter-spacing-5">

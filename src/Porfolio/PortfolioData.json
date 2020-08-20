@@ -1,16 +1,12 @@
-
 [
     {
         "name": "Creamble",
         "images":[
-            "../images/Project 1/Creambly behance1.jpg",
-            "../images/Project 1/Creambly behance2.jpg",
-            "../images/Project 1/Creambly behance3.jpg",
-            "../images/Project 1/Creambly behance4.jpg",
-            "../images/Project 1/Creambly behance5.jpg",
-            "../images/Project 1/Creambly behance6.jpg",
-            "../images/Project 1/Gif animation.jpg"
-        ]    
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+        ]        
     },
     {
         "name": "LucidStand"
