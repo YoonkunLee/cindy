@@ -1,5 +1,5 @@
 import React, { Component, useRef } from 'react';
-import { render } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Thumbnail1 from '../images/MainPage/Thumbnail1.jpg'
@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                                 <div>
                                     <h2>LucidStand</h2>
                                 </div>
-                                    <a href="../PortfolioDetail/LucidStand"></a>
+                                <Link to={"../PortfolioDetail/" + 0} activeClassName={"active"}></Link>
                             </figcaption>			
                         </figure>
                         <figure class="effect-lily">
@@ -76,20 +76,6 @@ export default class Portfolio extends Component {
             </div>     
         );
     }
-}
-
-var imgSize = {
-    width: "100%",
-    height: "auto",
-}
-
-var bannerStyle ={
-    width: "100%",
-    height: "auto",
-    backgroundSize: 'cover',
-    backgroundImage: `url(${project1})`,
-    backgroundPosition: 'ceter',
-    marginBottom: "10px"
 }
 
 const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
