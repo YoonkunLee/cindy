@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import mainBanner1 from '../images/MainPage/mainBanner1.JPG';
 
 export default class MainBanner extends Component {
     render(){
@@ -22,7 +21,7 @@ var bannerStyle ={
     width: "100%",
     height: "auto",
     backgroundSize: 'cover',
-    backgroundImage: `url(${mainBanner1})`,
+    backgroundImage: `url(${process.env.PUBLIC_URL + '/images/MainPage/mainBanner1.JPG' })`,
     backgroundPosition: 'ceter',
     marginBottom: "10px"
 }

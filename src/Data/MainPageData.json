@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Creambly",
+        "image": "/images/MainPage/Thumbnail1.jpg"
+        
+    },
+    {
+        "name": "LucidStand",
+        "image": "/images/MainPage/Thumbnail2.jpg"
+    },
+    {
+        "name": "IPA",
+        "image": "/images/MainPage/Thumbnail3.jpg"
+    },
+    {
+        "name": "Anual Report",
+        "image": "/images/MainPage/Thumbnail4.jpg"
+    },
+    {
+        "name": "Conferenz EDM",
+        "image": "/images/MainPage/Thumbnail5.jpg"
+    },
+    {
+        "name": "Brand Guideline",
+        "image": "/images/MainPage/Thumbnail6.jpg"
+    }
+]

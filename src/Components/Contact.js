@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import contact from '../images/MainPage/contact.jpg'
 import '../CSS/contact.css'
 
 export default class Contact extends Component {
@@ -12,10 +11,10 @@ export default class Contact extends Component {
             //     <button>Contact Now</button>
             // </div>
             <div class="container-fluid">
-                <h2>Contact</h2>
                 <div class="grid1">
+                    <h2 style={contactText1}>CONTACT</h2>
                     <figure class="effect-winston">
-                        <img src={contact} alt="img30"/>
+                        <img src={process.env.PUBLIC_URL + '/images/MainPage/contact.jpg' }></img> 
                         <figcaption>
                             <h2>Cindy <span>Jeon</span></h2>
                             <h2>Learn<span>More about me?</span></h2>                           
@@ -30,4 +29,10 @@ export default class Contact extends Component {
             </div>
         );
     }
+}
+
+var contactText1 = {
+    marginTop: "150px",
+    textAlign: "center",
+    marginBottom: "50px"
 }

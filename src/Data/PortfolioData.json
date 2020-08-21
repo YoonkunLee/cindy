@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Creambly",
+        "images":[
+            "/images/Creambly/Thumbnail.jpg",
+            "/images/Creambly/Creambly1.jpg",
+            "/images/Creambly/Creambly2.jpg",
+            "/images/Creambly/Creambly3.jpg",
+            "/images/Creambly/Creambly4 Dark.jpg",
+            "/images/Creambly/Creambly5 Dark.jpg",
+            "/images/Creambly/Creambly6.jpg",
+            "/images/Creambly/Creambly7.jpg",
+            "/images/Creambly/Gif animation.gif"
+        ]        
+    },
+    {
+        "name": "LucidStand",
+        "images":[
+            "/images/LucidStand/1.png",
+            "/images/LucidStand/2.png",
+            "/images/LucidStand/2-2.gif",
+            "/images/LucidStand/3.png",
+            "/images/LucidStand/4.png",
+            "/images/LucidStand/5.png"
+        ]   
+    },
+    {
+        "name": "ConferNZ"
+
+    },
+    {
+        "name": "IPA",
+        "images":[
+            "/images/IPA/IPA1.jpg",
+            "/images/IPA/IPA2.jpg",
+            "/images/IPA/IPA3.jpg",
+            "/images/IPA/IPA4.jpg",
+            "/images/IPA/IPA5.jpg"
+        ]
+    },
+    {
+        "name": "Conferenz",
+        "images":[
+            "/images/Conferenz/Conferenz1.jpg",
+            "/images/Conferenz/Conferenz2.jpg",
+            "/images/Conferenz/Conferenz3.jpg",
+            "/images/Conferenz/Conferenz4.jpg",
+            "/images/Conferenz/Conferenz5.jpg"
+        ]
+
+    },
+    {
+        "name": "Style Guide"
+
+    }
+]
