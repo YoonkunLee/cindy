@@ -13,14 +13,14 @@ export default class Portfolio extends Component {
                         <h1 style={PortfolioText1}>PORTFOLIO</h1>
                         {mainPageData.map((main) =>{
                             return <figure class="effect-lily">
-                                        <img src={process.env.PUBLIC_URL + main.image }></img> 
-                                        <figcaption>
-                                            <div>
-                                                <h2>{main.name}</h2>
-                                            </div>
-                                            <Link to={"../PortfolioDetail/0"} activeClassName={"active"}></Link>
-                                        </figcaption>			
-                                    </figure>
+                                <img src={process.env.PUBLIC_URL + main.image }></img> 
+                                <figcaption>
+                                    <div>
+                                        <h2>{main.name}</h2>
+                                    </div>
+                                    <Link to={"../PortfolioDetail/0"} activeClassName={"active"}></Link>
+                                </figcaption>			
+                            </figure>
                         })}
                     </div>
                 </div>

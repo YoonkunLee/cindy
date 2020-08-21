@@ -18,11 +18,6 @@ export default class Contact extends Component {
                         <figcaption>
                             <h2>Cindy <span>Jeon</span></h2>
                             <h2>Learn<span>More about me?</span></h2>                           
-                            <p>
-                                <a href="#"><i class="fa fa-fw fa-star-o"></i></a>
-                                <a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
-                                <a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
-                            </p>
                         </figcaption>			
                     </figure>
                 </div>
