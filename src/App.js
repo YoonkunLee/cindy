@@ -5,6 +5,7 @@ import AboutMe from './Pages/AboutMe';
 import Home from './Pages/Home';
 import PortfolioDetail from './Pages/PortfolioDetail';
 import NavMenu from './Components/NavMenu';
+import Footer from './Components/Footer'
 
 export default class App extends Component {
   render(){
@@ -17,18 +18,8 @@ export default class App extends Component {
             <Route path="/AboutMe" component={AboutMe} />
             <Route path="/PortfolioDetail/:id" component={PortfolioDetail} />
           </div>         
-          <div className="w-100 mt-5" />
-              <footer className="footer-copyright text-center footer-green py-3 botton-0 letter-spacing-5">
-                <div>
-                  <a href="/">Cindy Minyoung Jeon</a>
-                  <span>&copy; 2020 Cindy's Website.</span>
-                </div>
-                <div className="ml-auto">
-                  | <span>Powered by</span> Cindy Jeon | Copyright: Cindy Minyoung Jeon, Yoonkun Lee
-                  |
-                </div>
-              </footer>
-          </div>
+            <Footer />
+        </div>
       </Router>
     );
   }  

@@ -18,7 +18,7 @@ export default class Portfolio extends Component {
                                     <div>
                                         <h2>{main.name}</h2>
                                     </div>
-                                    <Link to={"../PortfolioDetail/0"} activeClassName={"active"}></Link>
+                                    <Link to={"../PortfolioDetail/" + main.name} activeClassName={"active"}></Link>
                                 </figcaption>			
                             </figure>
                         })}

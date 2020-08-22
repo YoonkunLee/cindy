@@ -4,12 +4,6 @@ import '../CSS/contact.css'
 export default class Contact extends Component {
     render(){
         return (
-            // <div>
-            //     <h2>Contact</h2>
-            //     <h4>Email: minyoung307@gamil.com</h4>
-
-            //     <button>Contact Now</button>
-            // </div>
             <div class="container-fluid">
                 <div class="grid1">
                     <h2 style={contactText1}>CONTACT</h2>

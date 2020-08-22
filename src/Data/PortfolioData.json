@@ -25,7 +25,7 @@
         ]   
     },
     {
-        "name": "ConferNZ"
+        "name": "Anual Report"
 
     },
     {
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "name": "Conferenz",
+        "name": "Conferenz EDM",
         "images":[
             "/images/Conferenz/Conferenz1.jpg",
             "/images/Conferenz/Conferenz2.jpg",
@@ -50,7 +50,7 @@
 
     },
     {
-        "name": "Style Guide"
+        "name": "Brand Guideline"
 
     }
 ]
