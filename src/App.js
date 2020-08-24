@@ -11,7 +11,7 @@ export default class App extends Component {
   render(){
     return (    
       <Router>    
-        <div className="App">    
+        <div className="App overflow-hidden">    
           <NavMenu />
           <div style={bannerStyle}>
             <Route exact path="/" component={Home} />
@@ -27,5 +27,6 @@ export default class App extends Component {
 
 var bannerStyle ={
   width: "100%",
-  marginTop: "30px"
+  marginTop: "130px",
+  overflow: "hidden"
 }

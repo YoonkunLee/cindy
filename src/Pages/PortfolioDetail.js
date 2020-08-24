@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import PortfolioData from '../Data/PortfolioData.json'
+import PortfolioData from '../Data/PortfolioData.json';
+import { LazyLoadImage }from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/opacity.css';
+
 export default class PortfolioDetail extends Component {
     render(){
         
@@ -11,19 +14,13 @@ export default class PortfolioDetail extends Component {
         }
 
         return(
-            <div>
-                <div>
-                    <h1>{PortfolioData[itemNo].name}</h1>
-                    {PortfolioData[itemNo].images.map((value) =>{
-                        return <img style={style1} src={ process.env.PUBLIC_URL + value}></img>
+            <div className="overflow-hidden">
+                <div class="list">
+                    {PortfolioData[itemNo].images.map((image) =>{
+                        return <LazyLoadImage alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></LazyLoadImage>
                     })}
                 </div>
             </div>
         );       
     }
-}
-
-var style1={
-    width:"100%",
-    height: "auto",
 }

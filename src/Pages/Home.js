@@ -6,14 +6,14 @@ import Contact from '../Components/Contact';
 export default class Home extends Component {
     render(){
         return(
-            <div className="container-fluid">                
-                <MainBanner />  
-                <div style={ size } id="portfolio">
-                    <Portfolio />
-                </div>   
-                <div id="contact">
-                    <Contact />
-                </div>
+            <div className="container-fluid">     
+                <div id="top"></div>    
+                <div>
+                    <   MainBanner />
+                    <div style={ size } id="portfolio">
+                        <Portfolio />
+                    </div>   
+                </div>       
             </div>
         );
     }

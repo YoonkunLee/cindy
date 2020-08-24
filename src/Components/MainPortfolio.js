@@ -7,8 +7,8 @@ import mainPageData from '../Data/MainPageData.json'
 export default class Portfolio extends Component {
     render(){
         return (
-            <div class="container-fluid">
-                <div class="row">                   
+            <div class="container-fluid ">
+                <div class="row className= overflow-hidden">                   
                     <div className="grid">
                         <h1 style={PortfolioText1}>PORTFOLIO</h1>
                         {mainPageData.map((main) =>{
