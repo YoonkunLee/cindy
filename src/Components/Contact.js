@@ -8,7 +8,7 @@ export default class Contact extends Component {
                 <div class="grid1">
                     <h2 style={contactText1}>CONTACT</h2>
                     <figure class="effect-winston">
-                        <img src={process.env.PUBLIC_URL + '/images/MainPage/contact.jpg' }></img> 
+                        <img src={process.env.PUBLIC_URL + '/images/MainPage/contact.jpg' } alt=""></img> 
                         <figcaption>
                             <h2>Cindy <span>Jeon</span></h2>
                             <h2>Learn<span>More about me?</span></h2>                           

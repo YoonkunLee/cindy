@@ -1,18 +1,16 @@
 import React, { Component }from 'react';
 import MainBanner from '../Components/MainBanner';
 import Portfolio from '../Components/MainPortfolio';
-import Contact from '../Components/Contact';
 
 export default class Home extends Component {
     render(){
         return(
-            <div className="container-fluid">     
-                <div id="top"></div>    
+            <div className="container-fluid">                      
                 <div>
                     <   MainBanner />
-                    <div style={ size } id="portfolio">
+                    <section style={ size } title="portfolio" id="portfolio">
                         <Portfolio />
-                    </div>   
+                    </section>   
                 </div>       
             </div>
         );

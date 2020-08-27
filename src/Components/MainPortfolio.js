@@ -1,4 +1,4 @@
-import React, { Component, useRef } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../CSS/MainPortfolio.css'
@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
                         <h1 style={PortfolioText1}>PORTFOLIO</h1>
                         {mainPageData.map((main) =>{
                             return <figure class="effect-lily">
-                                <img src={process.env.PUBLIC_URL + main.image }></img> 
+                                <img src={process.env.PUBLIC_URL + main.image } alt="Main Banner"></img> 
                                 <figcaption>
                                     <div>
                                         <h2>{main.name}</h2>
