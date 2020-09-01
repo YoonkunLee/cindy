@@ -4,10 +4,10 @@ import '../CSS/contact.css'
 export default class Contact extends Component {
     render(){
         return (
-            <div class="container-fluid">
-                <div class="grid1">
+            <div className="container-fluid">
+                <div className="grid1">
                     <h2 style={contactText1}>CONTACT</h2>
-                    <figure class="effect-winston">
+                    <figure className="effect-winston">
                         <img src={process.env.PUBLIC_URL + '/images/MainPage/contact.jpg' } alt=""></img> 
                         <figcaption>
                             <h2>Cindy <span>Jeon</span></h2>
