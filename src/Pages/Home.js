@@ -7,7 +7,7 @@ import Contact from '../Components/Contact';
 export default class Home extends Component {
     render(){
         return(
-            <div className="container">                      
+            <div className="container-fluid">                      
                 <div>
                     <MainBanner />
                     <section style={ size } title="portfolio" id="portfolio">

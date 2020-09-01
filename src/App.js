@@ -11,7 +11,7 @@ export default class App extends Component {
   render(){
     return (    
       <Router>    
-        <div className="App overflow-hidden">    
+        <div className="App container-fluid overflow-hidden" style={screensize}>    
           <NavMenu />
           <div style={bannerStyle}>
             <Route exact path="/" component={Home} />
@@ -25,8 +25,12 @@ export default class App extends Component {
   }  
 }
 
+var screensize ={
+  width: "75%"
+}
+
 var bannerStyle ={
   width: "100%",
-  marginTop: "130px",
+  marginTop: "120px",
   overflow: "hidden"
 }
