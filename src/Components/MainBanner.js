@@ -2,58 +2,50 @@ import React, { Component } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../CSS/MainBanner.css"
 
 export default class MainBanner extends Component {
-    render(){
-        const settings ={
-            dots: true,
-            arrows: false,
-            infinite: true,
-            speed: 2000,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            pauseOnHover: true,
-            
-            lazyLoad: true,
-            marginRight: "0px",
-        };
-
-
+    render(){       
         return(
-            // <div style={bannerStyle}>
-            //     <div style={bannerText}>
-            //         <h1>Welcome to Cindy's Website</h1>
-            //         <h3>Senior Designer</h3>
-            //     </div>              
-            //     <div style={bannerButton}>
-            //         <a href="/#aboutMe" className="btn btn-outline-light btn-lg ">Learn More</a> 
-            //     </div>
-            // </div>
-            
-                <div className="col-12" style={bannerStyle}>
-                    <div className="col-5 float-left container-fluid" >
-                        <div style={textStyle}>
-                            <h1 style= {bannerTitle}>Kia Ora</h1>
-                            <h5 style= {bannerText}>I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h5>
-                        </div>
+            <div className="col-12 grid" style={bannerStyle}>
+                <div className="col-4 float-left container-fluid" >
+                    <div style={textStyle}>
+                        <h1 className="mainfont font-weight-bold" style= {bannerTitle}>Kia Ora</h1>
+                        <h4 className="BannerText font-weight-bold" style= {bannerText}>I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
                     </div>
-                    <Slider className="col-7 float-left" {...settings}>
-                        <div>
-                            <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner1.png"} style={centerImage}/>
-                        </div>
-                        <div>
-                            <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner2.png"} style={centerImage}/>
-                        </div>
-                        <div>
-                            <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner3.png"} style={centerImage}/>
-                        </div>
-                    </Slider>
                 </div>
+                <Slider className="col-8 float-left" {...settings}>
+                    <div>
+                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner1.png"} style={centerImage} alt="project1"/>
+                    </div>
+                    <div>
+                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner2.png"} style={centerImage} alt="project2"/>
+                    </div>
+                    <div>
+                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner3.png"} style={centerImage} alt="project3"/>
+                    </div>
+                </Slider>
+                <div>
+                    <a href="/#portfolio"><img style={arrowMargin} src={process.env.PUBLIC_URL + '/images/MainPage/arrowdown.png'} width="50" height="auto" alt="Logo" /></a>
+                </div>
+               
+            </div>
         );
     }
 }
+
+const settings ={
+    dots: true,
+    arrows: false,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    lazyLoad: true,
+    marginRight: "0px",
+};
 
 var bannerStyle ={
     display: "block",
@@ -65,7 +57,7 @@ var bannerStyle ={
     marginBottom: "10px",
     backgroundAttachment: "fixed",
     overflow: "hidden",
-    paddingBottom: "70px"
+    paddingBottom: "50px"
 
 }
 
@@ -75,6 +67,8 @@ var bannerTitle ={
     textAlign: "left",
     color: "#225357",
     marginLeft: "60px",
+    fontSize: "60px",
+    textWeight: "bold"
 }
 var bannerText ={
     paddingBottom: "20px",
@@ -82,22 +76,17 @@ var bannerText ={
     color: "#225357",
     marginLeft: "60px",
     font: "normal normal Helvetica Neue",
-    fontSize: "18px",
-    lineHeight: "1.6"
+    fontSize: "25px",
+    lineHeight: "1.3"
 }
 
 var textStyle={
-    paddingTop: "50%"
+    paddingTop: "52%",
+    letterSpacing: "1.5px"
 }
 
-var imagePadding = {
-    paddingTop: "25px",     
-}
-
-var bannerImage ={
-    width: "auto",
-    height: "600px",
-    position: "center"
+var arrowMargin = {
+    marginTop: "30px",       
 }
 
 var centerImage={
@@ -105,6 +94,7 @@ var centerImage={
     marginLeft: "auto",
     marginRight: "auto",
     width: "auto",
-    height: "600px",
-    paddingTop: "100px"
+    height: "750px",
+    paddingTop: "100px",
+    paddingLeft: "55px"
 }

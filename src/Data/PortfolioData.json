@@ -1,13 +1,13 @@
 [
     {
         "name": "Creambly",
-        "images":[
-            "/images/Creambly/Thumbnail.jpg",
+        "about": "Creambly (Creators Assembly) is a web-based professional networking platform which enables the building the businesses of individuals who specialise in any facet of creative or competitive online content creation. The goal of this project was to build a brand, app and a website for the business. Similar to LinkedIn, this platform will include: public-facing customizable user profiles, filter-based network search options, a system by which users can initiate communication, and a place medium for community-wide posting.",
+        "images":[           
             "/images/Creambly/Creambly1.jpg",
             "/images/Creambly/Creambly2.jpg",
             "/images/Creambly/Creambly3.jpg",
-            "/images/Creambly/Creambly4 Dark.jpg",
-            "/images/Creambly/Creambly5 Dark.jpg",
+            "/images/Creambly/Creambly4.jpg",
+            "/images/Creambly/Creambly5.jpg",
             "/images/Creambly/Creambly6.jpg",
             "/images/Creambly/Creambly7.jpg",
             "/images/Creambly/Gif animation.gif"

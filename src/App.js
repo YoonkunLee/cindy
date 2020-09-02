@@ -5,7 +5,6 @@ import AboutMe from './Components/AboutMe';
 import Home from './Pages/Home';
 import PortfolioDetail from './Pages/PortfolioDetail';
 import NavMenu from './Components/NavMenu';
-import Footer from './Components/Footer'
 
 export default class App extends Component {
   render(){
@@ -18,7 +17,6 @@ export default class App extends Component {
             <Route path="/AboutMe" component={AboutMe} />
             <Route path="/PortfolioDetail/:id" component={PortfolioDetail} />
           </div>         
-            <Footer />
         </div>
       </Router>
     );

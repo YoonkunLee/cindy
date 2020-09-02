@@ -1,0 +1,22 @@
+.grid {
+	position: relative;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+
+@font-face {
+    font-family: 'Nexa';
+    src: url("../Font/Nexa\ Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Nexa';
+    font-weight: bold;
+    src: url("../Font/Nexa\ Bold.otf") format("opentype");
+}
+
+.mainfont {
+    font-family: Nexa;
+}
