@@ -28,3 +28,37 @@
 	list-style: none;
 	text-align: center;
 }
+
+.body{
+    display: "block";
+    width: "100%";
+    height: "auto";
+    background-size: 'cover';
+    background-color: #F4F4F4;
+    background-position: 'ceter';
+    margin-bottom: "10px";
+    background-attachment: "fixed";
+    overflow: "hidden";
+    padding-bottom: "50px"
+}
+
+.MainImage{
+    display: block;
+    margin: auto;
+    padding-left: 40px;
+    padding-top: 130px;
+    width: auto;
+    height: 700px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+      background-color: lightblue;
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+  }

@@ -7,14 +7,16 @@ import "../CSS/MainBanner.css"
 export default class MainBanner extends Component {
     render(){       
         return(
-            <div className="col-12 grid" style={bannerStyle}>
-                <div className="col-4 float-left container-fluid" >
+
+            <div>
+                <div className="col-12 col-md-12 grid" style={bannerStyle}>
+                <div className="col-xs-12 col-lg-4 float-left container-fluid">
                     <div style={textStyle}>
                         <h1 className="mainfont font-weight-bold" style= {bannerTitle}>Kia Ora</h1>
                         <h4 className="BannerText font-weight-bold" style= {bannerText}>I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
                     </div>
                 </div>
-                <Slider className="col-8 float-left" {...settings}>
+                <Slider className="col-xs-12 col-sm-12 col-lg-8 float-left" {...settings}>
                     <div>
                         <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner1.png"} style={centerImage} alt="project1"/>
                     </div>
@@ -28,7 +30,8 @@ export default class MainBanner extends Component {
                 <div>
                     <a href="/#portfolio"><img style={arrowMargin} src={process.env.PUBLIC_URL + '/images/MainPage/arrowdown.png'} width="50" height="auto" alt="Logo" /></a>
                 </div>
-               
+            
+                </div>
             </div>
         );
     }
@@ -66,7 +69,6 @@ var bannerTitle ={
     paddingBottom: "20px",
     textAlign: "left",
     color: "#225357",
-    marginLeft: "60px",
     fontSize: "60px",
     textWeight: "bold"
 }
@@ -74,7 +76,6 @@ var bannerText ={
     paddingBottom: "20px",
     textAlign: "left",
     color: "#225357",
-    marginLeft: "60px",
     font: "normal normal Helvetica Neue",
     fontSize: "25px",
     lineHeight: "1.3"
@@ -82,7 +83,9 @@ var bannerText ={
 
 var textStyle={
     paddingTop: "52%",
-    letterSpacing: "1.5px"
+    letterSpacing: "1.5px",
+    paddingLeft: "30px",
+    paddingRight: "30px"
 }
 
 var arrowMargin = {
@@ -91,10 +94,9 @@ var arrowMargin = {
 
 var centerImage={
     display: "block",
-    marginLeft: "auto",
-    marginRight: "auto",
+    margin: "auto",
+    paddingLeft: "50px",
+    paddingTop: "150px",
     width: "auto",
-    height: "750px",
-    paddingTop: "100px",
-    paddingLeft: "55px"
+    height: "700px"
 }

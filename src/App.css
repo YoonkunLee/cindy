@@ -7,11 +7,21 @@
   pointer-events: none;
 }
 
+.container{
+  width: 75%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+  }
+}
+
 
 .App-header {
   background-color: #282c34;

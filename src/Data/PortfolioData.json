@@ -15,21 +15,20 @@
     },
     {
         "name": "LucidStand",
+        "about": "LucidStand is a trusted review site collecting ratings and reviews on professional employees from all sectors. LucidStand is to guide people looking for a way to find trustworthy professionals that perform high-quality work. The goal of this project was to build a brand and a website for the business, to make it easy for users to focus on main information and navigate on website, as well as make UI modern and simple.",
         "images":[
-            "/images/LucidStand/1.png",
-            "/images/LucidStand/2.png",
-            "/images/LucidStand/2-2.gif",
-            "/images/LucidStand/3.png",
-            "/images/LucidStand/4.png",
-            "/images/LucidStand/5.png"
+            "/images/LucidStand/LucidStand Cindy Web1.jpg",
+            "/images/LucidStand/LucidStand Cindy Web2.jpg",
+            "/images/LucidStand/LucidStand Cindy Web3.jpg",
+            "/images/LucidStand/LucidStand Cindy Web4.jpg",
+            "/images/LucidStand/LucidStand Cindy Web5.jpg",
+            "/images/LucidStand/LucidStand Cindy Web6.jpg",
+            "/images/LucidStand/LucidStand Cindy Web7.jpg"
         ]   
     },
     {
-        "name": "Anual Report"
-
-    },
-    {
         "name": "IPA",
+        "about": "International Property Awards 2019/2020. The International Property Awards recognise the highest levels of achievement by companies operating in all sectors of the property and real estate industry. The awards are open to residential and commercial property professionals from around the globe. This is one of the biggest annual projects taken by in-house marketing team. As a result of that Barfoot & Thompson have won many awards since 2014. For this year’s entry, my role was to design and art direct this project. The brief was to create a company portfolio based on the requirements of four different submissions, each submission requires a book, USB, entry form and presentation box. The project ran for 3 months from September to November 2019 and involved 12+ experts from all divisions.    ",
         "images":[
             "/images/IPA/IPA1.jpg",
             "/images/IPA/IPA2.jpg",
@@ -37,6 +36,10 @@
             "/images/IPA/IPA4.jpg",
             "/images/IPA/IPA5.jpg"
         ]
+    },
+    {
+        "name": "Anual Report"
+
     },
     {
         "name": "Conferenz EDM",
