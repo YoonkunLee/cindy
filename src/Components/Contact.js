@@ -3,8 +3,7 @@ import '../CSS/contact.css';
 import {Link} from 'react-router-dom';
 
 export default class Contact extends Component {
-    render(){
-        
+    render(){       
         return (
             <div className="contactlayout">
                 <div className="grid">
@@ -23,16 +22,4 @@ export default class Contact extends Component {
             </div>
         );
     }
-}
-
-var spacingIcon={
-    marginLeft: "20px",
-    marginRight: "20px",
-    marginBottom: "100px",
-    marginTop: "100px"
-}
-
-var footer ={
-    fontSize: "15px",
-    paddingBottom: "50px"
 }
