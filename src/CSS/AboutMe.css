@@ -18,7 +18,7 @@
 
 @font-face{
     font-family: 'HelveticaNeue';
-    src: url("../Font/Helvetica Neu Bold.ttf") format('truetype');
+    src: url("../Font/HelveticaNeueHv.ttf") format('truetype');
 }
 
 .AboutFont {
@@ -80,10 +80,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     .titlefontsize {
         font-size: 1.5rem !important;
+        line-height: 25px;
     }
 
     .bodyfontsize {
         font-size: 1.0rem !important;
+        line-height: 25px;
     }
 
     .aboutimagespacing {

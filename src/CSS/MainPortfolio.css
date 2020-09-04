@@ -61,8 +61,7 @@
 	position: relative;
 	float: left;
     overflow: hidden;
-    min-width: 347px;
-    width: 50%;
+    width: 100%;
     height: auto;
 	background: #5b6466;
 	text-align: center;
@@ -220,10 +219,52 @@ figure.effect-lily:hover p {
     src: url("../Font/HelveticaNeue.ttf") format('truetype');
 }
 
-.aboutTitle {
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .popuptextmargin {
+    margin: 150px;
+ }
+
+.textStyleTitle {
+    font-size: 50px;
+    text-Align: left;
+    margin-bottom: 40px;
     font-family: Nexa;
 }
 
-.aboutText {
+.textStyleBody {
+    font-size: 20px;
+    text-align: left;
     font-family: HelveticaNeue;
 }
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .popuptextmargin {
+        margin: 10px;
+     }
+
+     .textStyleTitle {
+        font-size: 20px;
+        text-Align: left;
+        margin-bottom: 20px;
+    }
+
+    .textStyleBody {
+        font-size: 12px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+} 
+

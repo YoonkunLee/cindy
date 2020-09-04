@@ -25,14 +25,15 @@ export default class Portfolio extends Component {
 
     render(){
         return (
-            <div className="container-fluid ">
-                <div className="row overflow-hidden">                   
-                    <div className="grid">
+                <div className="row">                   
+                    <div className="grid overflow-hidden">
+                        
                         <img  style={spacing} src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
+                        <div className="col-12 col-md-12">
                         {mainPageData.map((main) =>{
-                            return <div><figure className="effect-lily">
-                                <img  src={process.env.PUBLIC_URL + main.image } alt="Main Banner"></img> 
-                                <figcaption onClick={this.show(main.id)} id={main.id}>
+                            return <div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding"><figure className="effect-lily">
+                                <img src={process.env.PUBLIC_URL + main.image } alt="Main Banner"></img> 
+                                <figcaption  onClick={this.show(main.id)} id={main.id}>
                                         <div>
                                             <h2>{main.name}</h2>                                        
                                         </div>           
@@ -40,9 +41,9 @@ export default class Portfolio extends Component {
                                 </figure>
                                 <Rodal customStyles={customStyles} visible={this.state.visible} onClose={this.hide.bind(this)}>
                                     <div className="overflow-hidden">         
-                                        <div style={textBox}>
-                                            <div style={textStyleTitle} className="header aboutTitle">About Project</div>       
-                                            <div style={textStyleBody} className="body aboutText">{PortfolioData[this.state.id].about}</div>
+                                        <div className="popuptextmargin">
+                                            <div className="textStyleTitle">About Project</div>       
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].about}</div>
                                         </div>                                                       
                                         <div className="list">                                                                                
                                             {PortfolioData[this.state.id].images.map((image) =>{                                               
@@ -53,9 +54,10 @@ export default class Portfolio extends Component {
                                 </Rodal>
                             </div>
                         })}
+                        </div>
                     </div> 
                 </div>
-            </div> 
+            
         );
     }
 }
@@ -65,7 +67,8 @@ const customStyles = {
     overflowY: "auto",   
     width: "80%",
     height: "auto",
-    marginTop: "160px"
+    marginTop: "160px",
+    padding: "0px"
 };
 
 var spacing ={
@@ -73,17 +76,7 @@ var spacing ={
     marginTop: "120px"
 }
 
-var textStyleTitle={
-    fontSize: "50px",
-    textAlign: "left",
-    marginBottom: "40px"
-}
-
 var textStyleBody={
     fontSize: "20px",
     textAlign: "left"
-}
-
-var textBox={
-    margin: "150px"
 }

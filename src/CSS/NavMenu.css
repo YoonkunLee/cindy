@@ -71,8 +71,8 @@ nav a:focus {
   text-decoration: none;
 }
 
-.maxWidth{
-    width: 75%;
+.navmaxWidth{
+	width: 78%;
 	margin: auto;
 	background-color: white;
   }
@@ -84,25 +84,20 @@ nav a:focus {
   
   @media only screen and (min-device-width: 320px) and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .body {
-        background-color: lightblue;
-        width: 100%;
-      }
       .MainImage{
           width: 100%;
           height: auto;
       }
-      .maxWidth{
+      .navmaxWidth{
         width: 100%;
 		margin: auto;
 		background-color: white;
 		padding: 0 !important;
    		
 	  }
-
 	  .logo{
-		width: 130px; 
-		height: 40px; 
+		width: 120px; 
+		height: 35px; 
 		alt: "Logo";
 	  }
-  }
+}

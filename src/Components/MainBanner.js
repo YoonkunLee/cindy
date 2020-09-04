@@ -8,9 +8,9 @@ export default class MainBanner extends Component {
     render(){       
         return(
 
-            <div>
+            <div className="row">
                 <div className="col-12 col-md-12 grid" style={bannerStyle}>
-                <div className="col-xs-12 col-lg-4 float-left container-fluid">
+                <div className="col-md-12 col-lg-4 float-left container-fluid">
                     <div style={textStyle}>
                         <h1 className="mainfont font-weight-bold" style= {bannerTitle}>Kia Ora</h1>
                         <h4 className="BannerText font-weight-bold" style= {bannerText}>I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
