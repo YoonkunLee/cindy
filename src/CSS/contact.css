@@ -18,8 +18,80 @@
 
 .mainfont {
     font-family: Nexa;
+    color: white;
 }
 
 .noTextDecoration {
 	color: white;
+}
+
+.contactlayout {
+    background-color: #333333;
+    margin-top: 50px;
+}
+
+.contactTitle{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.bannerSpacing {
+    margin-bottom: 100px;
+    margin-top: 130px;
+    padding-left: 15px;
+}
+
+.iconSpacing {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    width: 70px;
+}
+
+.footer {
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .body {
+      background-color: lightblue;
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .contactlayout {
+        background-color: #333333;
+        margin-top: 50px;
+    }
+
+    .contactBody{
+        font-size: 1.0rem;
+    }
+    
+    .bannerSpacing {
+        margin-bottom: 50px;
+        margin-top: 90px;
+        padding-left: 15px;
+    }
+    
+    .iconSpacing {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 100px;
+        margin-top: 50px;
+        width: 50px;
+    }
+
+    .footer {
+        font-size: 10px;
+        padding-bottom: 50px;
+    }
 }

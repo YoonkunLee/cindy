@@ -5,7 +5,6 @@
 	text-align: center;
 }
 
-
 @font-face {
     font-family: 'Nexa';
     src: url("../Font/Nexa\ Light.otf") format("opentype");
@@ -17,6 +16,78 @@
     src: url("../Font/Nexa\ Bold.otf") format("opentype");
 }
 
+@font-face{
+    font-family: 'HelveticaNeue';
+    src: url("../Font/Helvetica Neu Bold.ttf") format('truetype');
+}
+
+.AboutFont {
+    font-family: HelveticaNeue;
+    text-align: left;  
+}
+
 .mainfont {
     font-family: Nexa;
+}
+
+.aboutmaxwidth {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 50px !important;
+    float: left !important;
+}
+
+.photoPadding {
+    padding-left: 40px;
+}
+
+.titlefontsize {
+    font-size: 2.5rem;
+}
+
+.bodyfontsize {
+    font-size: 1.5rem !important;
+}
+
+.aboutimagespacing {
+    margin-bottom: 100px;
+    margin-top: 120px
+}
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 640px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .body {
+      background-color: lightblue;
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutmaxwidth {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px !important;
+        float: left !important;
+    }
+
+    .photoPadding {
+        padding: 0px;
+    }
+
+    .titlefontsize {
+        font-size: 1.5rem !important;
+    }
+
+    .bodyfontsize {
+        font-size: 1.0rem !important;
+    }
+
+    .aboutimagespacing {
+        margin-bottom: 30px;
+        margin-top: 120px
+    }
 }

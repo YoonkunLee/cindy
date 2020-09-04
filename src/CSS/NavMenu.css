@@ -70,3 +70,39 @@ nav a:focus {
   float: left;
   text-decoration: none;
 }
+
+.maxWidth{
+    width: 75%;
+	margin: auto;
+	background-color: white;
+  }
+  .logo{
+	width: 215px; 
+	height: 65px; 
+	alt: "Logo";
+  }
+  
+  @media only screen and (min-device-width: 320px) and (max-device-width: 640px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .body {
+        background-color: lightblue;
+        width: 100%;
+      }
+      .MainImage{
+          width: 100%;
+          height: auto;
+      }
+      .maxWidth{
+        width: 100%;
+		margin: auto;
+		background-color: white;
+		padding: 0 !important;
+   		
+	  }
+
+	  .logo{
+		width: 130px; 
+		height: 40px; 
+		alt: "Logo";
+	  }
+  }

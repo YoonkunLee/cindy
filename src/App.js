@@ -9,15 +9,13 @@ import NavMenu from './Components/NavMenu';
 export default class App extends Component {
   render(){
     return (    
-      <Router>    
-        <div className="App container-fluid overflow-hidden" style={screensize}>    
-          <NavMenu />
-          <div style={bannerStyle}>
-            <Route exact path="/" component={Home} />
-            <Route path="/AboutMe" component={AboutMe} />
-            <Route path="/PortfolioDetail/:id" component={PortfolioDetail} />
-          </div>         
-        </div>
+      <Router>            
+        <div className="App container-fluid overflow-hidden">   
+            <div className="maxWidth">      
+                <NavMenu />
+                <Route exact path="/" component={Home} />              
+            </div>
+        </div> 
       </Router>
     );
   }  
