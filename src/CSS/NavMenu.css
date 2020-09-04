@@ -71,6 +71,10 @@ nav a:focus {
   text-decoration: none;
 }
 
+.floatRight {
+	float: right;
+}
+
 .navmaxWidth{
 	width: 78%;
 	margin: auto;
@@ -80,6 +84,15 @@ nav a:focus {
 	width: 215px; 
 	height: 65px; 
 	alt: "Logo";
+	float: left;
+  }
+
+  .rodal-close {
+	  width: 60px;
+	  height: 60px;
+	  position: fixed;
+	  margin-right: 10px;
+   	  margin-top: 10px;
   }
   
   @media only screen and (min-device-width: 320px) and (max-device-width: 640px)
@@ -99,5 +112,23 @@ nav a:focus {
 		width: 120px; 
 		height: 35px; 
 		alt: "Logo";
+		float: left;
 	  }
+
+	  .floatRight {
+		float: right;
+	  }
+	  .buttonpadding {
+		margin-top: 20px;
+		margin-right: 20px;
+		float: right;
+	}	
+	.rodal-close {
+		width: 20px;
+		height: 20px;
+		position: fixed;
+		margin-right: 5px;
+		margin-top: -5px;
+	}
 }
+	  

@@ -15,13 +15,16 @@ export default class Portfolio extends Component {
       }
       hide() {
         this.setState({ visible: false });
+        document.getElementById("nav").style.display = "block";
       }
       setId(ids) {
           this.setState({ id: ids });
       }
       show = value =>() =>{
           this.setState({ id: value, visible: true})
+          document.getElementById("nav").style.display = "none";
       }
+
 
     render(){
         return (
@@ -65,18 +68,14 @@ export default class Portfolio extends Component {
 const customStyles = {
     display: "block !important",
     overflowY: "auto",   
-    width: "80%",
+    width: "85%",
     height: "auto",
-    marginTop: "160px",
+    marginTop: "40px",
+    marginBottom: "30px",
     padding: "0px"
 };
 
 var spacing ={
     marginBottom: "100px",
     marginTop: "120px"
-}
-
-var textStyleBody={
-    fontSize: "20px",
-    textAlign: "left"
 }
