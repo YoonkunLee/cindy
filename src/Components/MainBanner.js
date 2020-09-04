@@ -28,7 +28,7 @@ export default class MainBanner extends Component {
                     </div>
                 </Slider>
                 <div>
-                    <a href="/#portfolio"><img style={arrowMargin} src={process.env.PUBLIC_URL + '/images/MainPage/arrowdown.png'} width="50" height="auto" alt="Logo" /></a>
+                    <a href="/#portfolio"><img style={arrowMargin} src={process.env.PUBLIC_URL + '/images/MainPage/Arrowdown.png'} width="50" height="auto" alt="Logo" /></a>
                 </div>
             
                 </div>
