@@ -10,21 +10,21 @@ export default class MainBanner extends Component {
 
             <div className="row">
                 <div className="col-12 col-md-12 grid" style={bannerStyle}>
-                <div className="col-md-12 col-lg-4 float-left container-fluid">
-                    <div style={textStyle}>
-                        <h1 className="mainfont font-weight-bold" style= {bannerTitle}>Kia Ora</h1>
-                        <h4 className="BannerText font-weight-bold" style= {bannerText}>I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
+                <div className="col-md-12 col-lg-5 float-left container-fluid nopadding">
+                    <div className="textStyle">
+                        <h1 className="mainbannerfont">Kia Ora</h1>
+                        <h4 className="BannerText">I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
                     </div>
                 </div>
-                <Slider className="col-xs-12 col-sm-12 col-lg-8 float-left" {...settings}>
+                <Slider className="col-xs-12 col-sm-12 col-lg-7 float-left nopadding  " {...settings}>
                     <div>
-                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner1.png"} style={centerImage} alt="project1"/>
+                        <img className="centerImage centerImage1" src={ process.env.PUBLIC_URL + "/images/MainPage/banner1.png"} alt="project1"/>
                     </div>
                     <div>
-                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner2.png"} style={centerImage} alt="project2"/>
+                        <img className="centerImage centerImage2" src={ process.env.PUBLIC_URL + "/images/MainPage/banner2.png"}  alt="project2"/>
                     </div>
                     <div>
-                        <img src={ process.env.PUBLIC_URL + "/images/MainPage/banner3.png"} style={centerImage} alt="project3"/>
+                        <img className="centerImage centerImage3" src={ process.env.PUBLIC_URL + "/images/MainPage/banner3.png"}  alt="project3"/>
                     </div>
                 </Slider>
                 <div>
@@ -48,6 +48,7 @@ const settings ={
     autoplaySpeed: 5000,
     lazyLoad: true,
     marginRight: "0px",
+    fade: true
 };
 
 var bannerStyle ={
@@ -61,42 +62,8 @@ var bannerStyle ={
     backgroundAttachment: "fixed",
     overflow: "hidden",
     paddingBottom: "50px"
-
-}
-
-var bannerTitle ={
-    font: "normal normal normal Nexa Light",
-    paddingBottom: "20px",
-    textAlign: "left",
-    color: "#225357",
-    fontSize: "60px",
-    textWeight: "bold"
-}
-var bannerText ={
-    paddingBottom: "20px",
-    textAlign: "left",
-    color: "#225357",
-    font: "normal normal Helvetica Neue",
-    fontSize: "25px",
-    lineHeight: "1.3"
-}
-
-var textStyle={
-    paddingTop: "52%",
-    letterSpacing: "1.5px",
-    paddingLeft: "30px",
-    paddingRight: "30px"
 }
 
 var arrowMargin = {
-    marginTop: "30px",       
-}
-
-var centerImage={
-    display: "block",
-    margin: "auto",
-    paddingLeft: "50px",
-    paddingTop: "150px",
-    width: "auto",
-    height: "700px"
+    marginTop: "80px",       
 }

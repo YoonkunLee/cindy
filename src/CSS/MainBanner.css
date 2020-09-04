@@ -14,12 +14,23 @@
     src: url("../Font/HelveticaNeue.ttf") format('truetype');
 }
 
-.mainfont {
+.mainbannerfont {
     font-family: Nexa;
+    padding-bottom: 20px;
+    text-align: left;
+    color: #225357;
+    font-size: 60px;
+    font-weight: bold;
 }
 
 .BannerText {
     font-family: HelveticaNeue;
+    padding-bottom: 20px;
+    text-align: left;
+    color: #225357;
+    font-size: 24px;
+    line-height: 1.3;
+    font-weight: bold;
 }
 
 .grid {
@@ -29,19 +40,6 @@
 	text-align: center;
 }
 
-.body{
-    display: "block";
-    width: "100%";
-    height: "auto";
-    background-size: 'cover';
-    background-color: #F4F4F4;
-    background-position: 'ceter';
-    margin-bottom: "10px";
-    background-attachment: "fixed";
-    overflow: "hidden";
-    padding-bottom: "50px"
-}
-
 .MainImage{
     display: block;
     margin: auto;
@@ -49,21 +47,85 @@
     padding-top: 130px;
     width: auto;
     height: 700px;
+}
 
+.textStyle {
+    margin-top: 150px;
+    padding-top: 35%;
+    letter-spacing: 1.5px;
+    padding-left: 100px;
+    padding-right: 40px;
+}
+
+.centerImage {
+    display: block;
+    margin: auto;
+    padding-left: 50px;
+    padding-top: 100px;
+    margin-top: 150px;
+    width: auto;
+    height: 700px;
 }
 
   @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .body {
-        background-color: lightblue;
-        width: 100%;
-      }
+
       .MainImage{
           width: 100%;
           height: auto;
       }
 
+      .mainbannerfont {
+        font-family: Nexa;
+        padding-bottom: 20px;
+        text-align: left;
+        color: #225357 !important;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    
+    .BannerText {
+        font-family: HelveticaNeue;
+        padding-bottom: 20px;
+        text-align: left;
+        color: #225357;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+    .textStyle {
+        margin-top: 0px;
+        padding-top: 52%;
+        letter-spacing: 1.5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .nopadding {
+        padding: 0 !important;
+        margin: 0 !important;
+     }
+
+     .centerImage {
+        display: block;
+        padding-left: 0px;
+        padding-top: 0px;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .centerImage1 {
+        width: 80%
+    }
+
+    .centerImage2 {
+        width: 110%
+    }
+
+    .centerImage3 {
+        width: 90%
+    }
 }
 
