@@ -28,7 +28,8 @@
     },
     {
         "name": "IPA",
-        "about": "International Property Awards 2019/2020. The International Property Awards recognise the highest levels of achievement by companies operating in all sectors of the property and real estate industry. The awards are open to residential and commercial property professionals from around the globe. This is one of the biggest annual projects taken by in-house marketing team. As a result of that Barfoot & Thompson have won many awards since 2014. For this year’s entry, my role was to design and art direct this project. The brief was to create a company portfolio based on the requirements of four different submissions, each submission requires a book, USB, entry form and presentation box. The project ran for 3 months from September to November 2019 and involved 12+ experts from all divisions.    ",
+        "subhedding": "International Property Awards 2019/2020.",
+        "about": "The International Property Awards recognise the highest levels of achievement by companies operating in all sectors of the property and real estate industry. The awards are open to residential and commercial property professionals from around the globe. This is one of the biggest annual projects taken by in-house marketing team. As a result of that Barfoot & Thompson have won many awards since 2014. For this year’s entry, my role was to design and art direct this project. The brief was to create a company portfolio based on the requirements of four different submissions, each submission requires a book, USB, entry form and presentation box. The project ran for 3 months from September to November 2019 and involved 12+ experts from all divisions.    ",
         "images":[
             "/images/IPA/IPA1.jpg",
             "/images/IPA/IPA2.jpg",
@@ -38,8 +39,17 @@
         ]
     },
     {
-        "name": "Anual Report"
-
+        "name": "Anual Report",
+        "subhedding": "Property Management Annual Review.",
+        "about": "This is an internal booklet detailing how property management has gone through the year. It is a 28 page long document, the majority of the contents are graphs, stats and icons which I have created them to comply with the Barfoot & Thompson brand.",
+        "images":[
+            "/images/AnnualReport/Barfoot Annual Report1.jpg",
+            "/images/AnnualReport/Barfoot Annual Report2.jpg",
+            "/images/AnnualReport/Barfoot Annual Report3.jpg",
+            "/images/AnnualReport/Barfoot Annual Report4.jpg",
+            "/images/AnnualReport/Barfoot Annual Report5.jpg",
+            "/images/AnnualReport/Barfoot Annual Report6.jpg"
+        ]
     },
     {
         "name": "Conferenz EDM",

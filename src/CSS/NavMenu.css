@@ -95,6 +95,11 @@ nav a:focus {
    	  margin-top: 10px;
   }
   
+  .navText {
+	color: #8e8b8b;
+    font-size: 13px;
+  }
+  
   @media only screen and (min-device-width: 320px) and (max-device-width: 640px)
   and (-webkit-min-device-pixel-ratio: 2) {
       .MainImage{
@@ -119,9 +124,7 @@ nav a:focus {
 		float: right;
 	  }
 	  .buttonpadding {
-		margin-top: 20px;
 		margin-right: 20px;
-		float: right;
 	}	
 	.rodal-close {
 		width: 20px;
@@ -130,5 +133,6 @@ nav a:focus {
 		margin-right: 5px;
 		margin-top: -5px;
 	}
+
 }
 	  

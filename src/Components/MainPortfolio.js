@@ -16,6 +16,7 @@ export default class Portfolio extends Component {
       hide() {
         this.setState({ visible: false });
         document.getElementById("nav").style.display = "block";
+        window.onscroll=function(){};
       }
       setId(ids) {
           this.setState({ id: ids });
@@ -23,15 +24,17 @@ export default class Portfolio extends Component {
       show = value =>() =>{
           this.setState({ id: value, visible: true})
           document.getElementById("nav").style.display = "none";
+          var x=window.scrollX;
+          var y=window.scrollY;
+          window.onscroll=function(){window.scrollTo(x, y);};
       }
-
 
     render(){
         return (
                 <div className="row">                   
                     <div className="grid overflow-hidden">
                         
-                        <img  style={spacing} src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
+                        <img className="projectIcon" src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
                         <div className="col-12 col-md-12">
                         {mainPageData.map((main) =>{
                             return <div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding"><figure className="effect-lily">
@@ -46,6 +49,7 @@ export default class Portfolio extends Component {
                                     <div className="overflow-hidden">         
                                         <div className="popuptextmargin">
                                             <div className="textStyleTitle">About Project</div>       
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].subhedding}</div>
                                             <div className="textStyleBody">{PortfolioData[this.state.id].about}</div>
                                         </div>                                                       
                                         <div className="list">                                                                                
@@ -74,8 +78,3 @@ const customStyles = {
     marginBottom: "30px",
     padding: "0px"
 };
-
-var spacing ={
-    marginBottom: "100px",
-    marginTop: "120px"
-}
