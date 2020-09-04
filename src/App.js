@@ -10,8 +10,8 @@ export default class App extends Component {
   render(){
     return (    
       <Router>            
-        <div className="App container-fluid overflow-hidden">   
-            <div className="maxWidth">      
+        <div className="App container-fluid overflow-hidden" >   
+            <div className="maxWidth" >      
                 <NavMenu />
                 <Route exact path="/" component={Home} />              
             </div>

@@ -4,7 +4,8 @@ import '../CSS/MainPortfolio.css'
 import mainPageData from '../Data/MainPageData.json'
 import Rodal from 'rodal'
 import 'rodal/lib/rodal.css';
-import PortfolioData from '../Data/PortfolioData.json'
+import PortfolioData from '../Data/PortfolioData.json';
+import $ from 'jquery';
 
 export default class Portfolio extends Component {
     constructor(props) {
@@ -16,24 +17,24 @@ export default class Portfolio extends Component {
       hide() {
         this.setState({ visible: false });
         document.getElementById("nav").style.display = "block";
-        window.onscroll=function(){};
+        document.body.style.overflow = "auto";
+        document.documentElement.style.overflow = "auto";
       }
       setId(ids) {
           this.setState({ id: ids });
       }
       show = value =>() =>{
           this.setState({ id: value, visible: true})
-          document.getElementById("nav").style.display = "none";
-          var x=window.scrollX;
-          var y=window.scrollY;
-          window.onscroll=function(){window.scrollTo(x, y);};
+          document.getElementById("nav").style.display = "none";         
+          document.body.style.overflow = "hidden";
+          document.documentElement.style.overflow = "hidden";
       }
 
     render(){
         return (
+            <div className="body">
                 <div className="row">                   
-                    <div className="grid overflow-hidden">
-                        
+                    <div className="grid overflow-hidden">                       
                         <img className="projectIcon" src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
                         <div className="col-12 col-md-12">
                         {mainPageData.map((main) =>{
@@ -64,7 +65,7 @@ export default class Portfolio extends Component {
                         </div>
                     </div> 
                 </div>
-            
+            </div>
         );
     }
 }
@@ -76,5 +77,5 @@ const customStyles = {
     height: "auto",
     marginTop: "40px",
     marginBottom: "30px",
-    padding: "0px"
+    padding: "0px",
 };
