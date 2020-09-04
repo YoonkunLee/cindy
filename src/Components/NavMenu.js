@@ -7,7 +7,7 @@ export default class NavMenu extends Component {
     render() {
       return (                        
             <nav className="container-fluid navbar navbar-light fixed-top maxWidth" >    
-              <div className="col-3 float-left mt-2" >
+              <div className="col-3 float-left mt-2 overflow-hidden" >
                   <a href="/#top"><img src={process.env.PUBLIC_URL + '/images/MainPage/logo.png'}  className="logo"/></a>
               </div>          
               <div className="col-9 cl-effect-1 mt-3" style={navCont}>                             
