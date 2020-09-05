@@ -59,7 +59,6 @@ and (min-device-width: 320px)
 and (max-device-width: 640px)
 and (-webkit-min-device-pixel-ratio: 2) {
   .body {
-      background-color: lightblue;
       width: 100%;
     }
     .MainImage{
