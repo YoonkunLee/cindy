@@ -34,7 +34,7 @@
     width: 100%;
     padding: 0px;
     margin-bottom: 50px !important;
-    float: left !important;
+    float: left;
 }
 
 .photoPadding {
@@ -53,6 +53,35 @@
     margin-bottom: 100px;
     margin-top: 120px
 }
+
+.leftfadein {
+    animation: right_to_left 4s ease;
+}
+
+.rightfadein {
+    text-align: left;
+    animation: left_to_right 4s ease;
+    margin-top: 10% !important;
+    padding-left: 50px;
+  }
+
+@keyframes right_to_left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
+  
+  @keyframes left_to_right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0;
+    }
+  }
 
 @media only screen 
 and (max-width: 640px){

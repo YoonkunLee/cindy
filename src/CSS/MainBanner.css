@@ -14,22 +14,21 @@
     src: url("../Font/HelveticaNeue Thin.ttf") format('truetype');
 }
 
-.slider{
+.bannersize{
     width: 100%;
-    float: left;
     padding: 0px;
 }
 .mainBannerFont {
     font-family: Nexa;
     padding-bottom: 20px;
-    font-size: 60px;
+    font-size: 3.5em !important;
     font-weight: bold;
 }
 
 .bannerText {
     font-family: HelveticaNeue;
     padding-bottom: 20px;
-    font-size: 21px;
+    font-size: 25px;
     line-height: 1.3;
 }
 
@@ -41,12 +40,26 @@
     height: auto;
 }
 
+.nopadding{
+    background-color: #F4F4F4;
+}
+
+.imageSize{
+    width: 65%;
+    float: right;
+}
+
+.textSize{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
 .mainTextBox{
-    width: 45%;
-    position: absolute;
-    top: 40%;
+    margin-top: 42%;
+    width: 100%;
     left: 16px; 
-    padding-left: 150px;
+    padding: 65px;
     text-align: left;
     color: #225357;
 }
@@ -60,12 +73,19 @@
 }
 
 .arrowSize {
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 50px;
+    
 }
 
   @media only screen 
-  and (max-width: 60em){
-      .mainBannerFont {
+  and (max-width: 800px){
+    .imageSize{
+        width:100%;
+    }
+
+    .mainBannerFont {
         padding-bottom: 10px;
         font-size: 30px;
     }
@@ -77,12 +97,13 @@
     }
 
     .mainTextBox{
-        width: 80% !important;
-        position: absolute;
-        top: 40%;
+        width: 100% !important;
         left: 16px; 
         padding-left: 0px;
         text-align: left;
+        padding-top: 20px;
+        overflow: hidden;
+        padding: 35px;
     }
 
     .nopadding {
@@ -96,12 +117,10 @@
         margin-top: 70px;
         width: 100%;
         height: auto;
-        opacity: 0.2;
     }
 
     .arrow{
         width: 45%;
-        position: absolute;
         top: 60%;
         left: 50%; 
         text-align: center;
@@ -115,6 +134,10 @@
 @media only screen 
 and (min-width: 641px)
 and (max-width: 1200px){
+    .imageSize{
+        width: 100%;
+    }
+
     .mainBannerFont {
       font-family: Nexa;
       padding-bottom: 20px;

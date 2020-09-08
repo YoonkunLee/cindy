@@ -282,6 +282,12 @@ and (max-width: 640px){
         text-align: left;
         margin-bottom: 30px;
     }
+
+    .projectIcon {
+        margin-bottom: 50px;
+        margin-top: 100px;
+        width: 140px;
+    }
 } 
 
 .fade-in-section {
