@@ -5,7 +5,6 @@ import mainPageData from '../Data/MainPageData.json'
 import Rodal from 'rodal'
 import 'rodal/lib/rodal.css';
 import PortfolioData from '../Data/PortfolioData.json';
-import $ from 'jquery';
 
 export default class Portfolio extends Component {
     constructor(props) {
@@ -30,15 +29,18 @@ export default class Portfolio extends Component {
           document.documentElement.style.overflow = "hidden";
       }
 
+      
+
+
     render(){
         return (
             <div className="body">
                 <div className="row">                   
-                    <div className="grid overflow-hidden">                       
+                    <div className="overflow-hidden">                       
                         <img className="projectIcon" src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
                         <div className="col-12 col-md-12">
                         {mainPageData.map((main) =>{
-                            return <div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding"><figure className="effect-lily">
+                            return<div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding"><figure className="effect-lily">
                                 <img src={process.env.PUBLIC_URL + main.image } alt="Main Banner"></img> 
                                 <figcaption  onClick={this.show(main.id)} id={main.id}>
                                         <div>
@@ -55,7 +57,7 @@ export default class Portfolio extends Component {
                                         </div>                                                       
                                         <div className="list">                                                                                
                                             {PortfolioData[this.state.id].images.map((image) =>{                                               
-                                                return <img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></img>
+                                                return <FadeInSection key={image}><img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></img></FadeInSection>
                                             })}                                            
                                         </div>
                                     </div>
@@ -77,5 +79,27 @@ const customStyles = {
     height: "auto",
     marginTop: "40px",
     marginBottom: "30px",
-    padding: "0px",
+    padding: "0px"
 };
+
+
+function FadeInSection(props) {
+    const [isVisible, setVisible] = React.useState(false);
+    const domRef = React.useRef();
+
+    if(setVisible != true){}
+    React.useEffect(() => {      
+            const observer = new IntersectionObserver(entries => {               
+                entries.forEach(entry => setVisible(entry.isIntersecting));
+            }); 
+          observer.observe(domRef.current);
+    }, []);
+    return (
+      <div
+        className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+        ref={domRef}
+      >
+        {props.children}
+      </div>
+    );
+  }

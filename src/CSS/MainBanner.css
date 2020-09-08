@@ -11,96 +11,78 @@
 
 @font-face{
     font-family: 'HelveticaNeue';
-    src: url("../Font/HelveticaNeue.ttf") format('truetype');
+    src: url("../Font/HelveticaNeue Thin.ttf") format('truetype');
 }
 
-.mainbannerfont {
+.slider{
+    width: 100%;
+    float: left;
+    padding: 0px;
+}
+.mainBannerFont {
     font-family: Nexa;
     padding-bottom: 20px;
-    text-align: left;
-    color: #225357;
     font-size: 60px;
     font-weight: bold;
 }
 
-.BannerText {
+.bannerText {
     font-family: HelveticaNeue;
     padding-bottom: 20px;
-    text-align: left;
-    color: #225357;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 1.3;
-    font-weight: bold;
-}
-
-.grid {
-	position: relative;
-	margin: 0 auto;
-	list-style: none;
-	text-align: center;
-}
-
-.MainImage{
-    display: block;
-    margin: auto;
-    padding-left: 40px;
-    padding-top: 130px;
-    width: auto;
-    height: 700px;
-}
-
-.textStyle {
-    margin-top: 150px;
-    padding-top: 35%;
-    letter-spacing: 1.5px;
-    padding-left: 100px;
-    padding-right: 40px;
 }
 
 .centerImage {
     display: block;
     margin: auto;
-    padding-left: 50px;
-    padding-top: 100px;
-    margin-top: 150px;
-    width: auto;
-    height: 700px;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+.mainTextBox{
+    width: 45%;
+    position: absolute;
+    top: 40%;
+    left: 16px; 
+    padding-left: 150px;
+    text-align: left;
+    color: #225357;
+}
+.arrow{
+    margin-top:80px;
+    width: 45%;
+    position: absolute;
+    top: 80%;
+    left: 50%; 
+    text-align: center;
+}
+
+.arrowSize {
+    width: 50px;
 }
 
   @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 640px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-      .MainImage{
-          width: 100%;
-          height: auto;
-      }
-
-      .mainbannerfont {
-        font-family: Nexa;
-        padding-bottom: 20px;
-        text-align: left;
-        color: #225357 !important;
-        font-size: 56px;
-        font-weight: bold;
+  and (max-width: 60em){
+      .mainBannerFont {
+        padding-bottom: 10px;
+        font-size: 30px;
     }
     
-    .BannerText {
-        font-family: HelveticaNeue;
+    .bannerText {
         padding-bottom: 20px;
-        text-align: left;
-        color: #225357;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 1.3;
     }
 
-    .textStyle {
-        margin-top: 0px;
-        padding-top: 30%;
-        letter-spacing: 1.5px;
+    .mainTextBox{
+        width: 80% !important;
+        position: absolute;
+        top: 40%;
+        left: 16px; 
         padding-left: 0px;
-        padding-right: 0px;
+        text-align: left;
     }
 
     .nopadding {
@@ -110,22 +92,50 @@
 
      .centerImage {
         display: block;
-        padding-left: 0px;
-        padding-top: 0px;
+        margin: auto;
+        margin-top: 70px;
+        width: 100%;
         height: auto;
-        margin-top: 30px;
+        opacity: 0.2;
     }
 
-    .centerImage1 {
-        width: 80%
+    .arrow{
+        width: 45%;
+        position: absolute;
+        top: 60%;
+        left: 50%; 
+        text-align: center;
     }
+    
+    .arrowSize {
+        width: 30px;
+    }
+}
 
-    .centerImage2 {
-        width: 110%
-    }
+@media only screen 
+and (min-width: 641px)
+and (max-width: 1200px){
+    .mainBannerFont {
+      font-family: Nexa;
+      padding-bottom: 20px;
+      text-align: left;
+      color: #225357 !important;
+      font-size: 56px;
+      font-weight: bold;
+  }
+  
+  .bannerText {
+      font-family: HelveticaNeue;
+      padding-bottom: 20px;
+      text-align: left;
+      color: #225357;
+      font-size: 14px;
+      line-height: 1.3;
+  }
 
-    .centerImage3 {
-        width: 90%
-    }
+  .nopadding {
+      padding: 0 !important;
+      margin: 0 !important;
+   }
 }
 

@@ -18,7 +18,7 @@
 
 @font-face{
     font-family: 'HelveticaNeue';
-    src: url("../Font/HelveticaNeueHv.ttf") format('truetype');
+    src: url("../Font/HelveticaNeue Light.ttf") format('truetype');
 }
 
 .AboutFont {
@@ -55,9 +55,7 @@
 }
 
 @media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 640px)
-and (-webkit-min-device-pixel-ratio: 2) {
+and (max-width: 640px){
   .body {
       width: 100%;
     }
@@ -85,6 +83,44 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .bodyfontsize {
         font-size: 1.0rem !important;
         line-height: 25px;
+    }
+
+    .aboutimagespacing {
+        margin-bottom: 30px;
+        margin-top: 120px
+    }
+}
+
+@media only screen 
+and (min-width: 641px)
+and (max-width: 1200px){
+  .body {
+      width: 100%;
+    }
+    .MainImage{
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutmaxwidth {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 50px !important;
+        float: left !important;
+    }
+
+    .photoPadding {
+        padding: 0px !important;
+    }
+
+    .titlefontsize {
+        font-size: 2.5rem !important;
+        line-height: 50px;
+    }
+
+    .bodyfontsize {
+        font-size: 1.5rem !important;
+        line-height: 40px;
     }
 
     .aboutimagespacing {
