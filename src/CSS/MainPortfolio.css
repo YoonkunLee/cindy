@@ -110,11 +110,11 @@
 .grid figure h2 {
 	word-spacing: -0.15em;
     font-size: 100%;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .grid figure h2 span {
-    font-weight: 800;
+    font-weight: 500;
     
 }
 
@@ -159,7 +159,7 @@ figure.effect-lily figcaption > div {
     text-align: center;
 	padding: 1em;
 	width: 100%;
-    height: 80%;
+    height: 65%;
     
 }
 
