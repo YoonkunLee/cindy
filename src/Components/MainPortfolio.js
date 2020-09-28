@@ -65,14 +65,19 @@ export default class Portfolio extends Component {
                                                         <img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + "/images/Genless/Genless3.jpg"}></img>
                                                     </FadeInSection>                                                    
                                                 }   
+                                                else if(image === "/images/Genless/Genless5.jpg"){
+                                                    return <FadeInSection>
+                                                        <img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + "/images/Genless/Genless5.jpg"}></img>
+                                                        <video autoPlay loop controls className="maxwidth" src={process.env.PUBLIC_URL + PortfolioData[this.state.id].video}></video>       
+                                                    </FadeInSection>                                                                            
+                                                }
                                                 else{
                                                     return <FadeInSection key={image}><img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></img>
                                                     </FadeInSection>
                                                     
-                                                }          
-                                                                                                                            
+                                                }                                                                                  
                                             })} 
-                                            <video autoPlay loop controls className="maxwidth" src={process.env.PUBLIC_URL + PortfolioData[this.state.id].video}></video>                                                                                               
+                                                        
                                         </div>   
                                     </div>               
                                 </Rodal>
