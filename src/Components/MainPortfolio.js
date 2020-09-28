@@ -72,7 +72,7 @@ export default class Portfolio extends Component {
                                                     </FadeInSection>                                                                            
                                                 }
                                                 else{
-                                                    return <FadeInSection key={image}><img alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></img>
+                                                    return <FadeInSection key={image}><img className="marginbottom" alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image}></img>
                                                     </FadeInSection>
                                                     
                                                 }                                                                                  

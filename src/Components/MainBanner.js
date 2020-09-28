@@ -72,4 +72,5 @@ const settings ={
     autoplaySpeed: 4000,
     lazyLoad: true,
     marginRight: "0px",
+    hover: false
 };
