@@ -258,6 +258,12 @@ figure.effect-lily:hover p {
 .rodal-close{
     top: 5% !important;
     right: 9% !important;
+    position: fixed !important;
+}
+
+.maxwidth{
+    width: 100%;
+    height: auto;
 }
 
 @media only screen 
