@@ -23,40 +23,11 @@ export default class MainBanner extends Component {
                     </Slider>
                     <div className="col-xl-5 col-md-12 col-sm-12">
                         <div className="mainTextBox">
-                            <h1 className="mainBannerFont">Kia Ora</h1>
-                            <h4 className="bannerText">I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how it works' as a key influence on my style.</h4>
+                            <h1 className="mainBannerFont">Hi I'm Cindy</h1>
+                            <h4 className="bannerText">A graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how it works' as a key influence on my style.</h4>
                         </div>
-                    </div>    
-                     
-                </div> 
-  
-                {/* <Slider className="slider" {...settings}>
-                    <div>
-                        <img className="centerImage" src={ process.env.PUBLIC_URL + "/images/MainPage/MainBanner1.png"} alt="project1"/>
-                        <div className="mainTextBox">
-                            <h1 className="mainBannerFont">Kia Ora</h1>
-                            <h4 className="bannerText">I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
-                        </div>
-                        <a  className="arrow" href="/#portfolio"><img className="arrowSize" src={process.env.PUBLIC_URL + '/images/MainPage/Arrowdown.png'} height="auto" alt="Logo" /></a>                     
-                    </div>
-                    <div>
-                        <img className="centerImage" src={ process.env.PUBLIC_URL + "/images/MainPage/MainBanner2.png"}  alt="project2"/>
-                        <div className="mainTextBox">
-                            <h1 className="mainBannerFont">Kia Ora</h1>
-                            <h4 className="bannerText">I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
-                        </div> 
-                        <a  className="arrow" href="/#portfolio"><img className="arrowSize" src={process.env.PUBLIC_URL + '/images/MainPage/Arrowdown.png'} height="auto" alt="Logo" /></a>                       
-                    </div>
-                    <div>
-                        <img className="centerImage" src={ process.env.PUBLIC_URL + "/images/MainPage/MainBanner3.png"}  alt="project3"/>
-                        <div className="mainTextBox">
-                            <h1 className="mainBannerFont">Kia Ora</h1>
-                            <h4 className="bannerText">I'm Cindy Jeon, a graphic designer living and working in New Zealand.   I love simplistic yet logical appoach with the saying 'design is not just what it looks like and feels like. Design is how is works' as a key influence on my style.</h4>
-                        </div>   
-                        <a  className="arrow" href="/#portfolio"><img className="arrowSize" src={process.env.PUBLIC_URL + '/images/MainPage/Arrowdown.png'} height="auto" alt="Logo" /></a>                     
-                    </div>                 
-                </Slider> */}
-               
+                    </div>                         
+                </div>               
             </div>
         );
     }
