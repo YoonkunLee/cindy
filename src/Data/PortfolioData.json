@@ -6,80 +6,75 @@
         "projectDetail1": " 1. A simplified one-page graphical summary of “5 reasons to love BEV” of the EV Buying Guide; think about icons, graphic treatments and a visual layout that pops the reasons better than the current list.",
         "projectDetail2": "2. An Instagram story with 3-5 frames condensing the fact that there's an EV guide available online and a website CTA of where to find everything",
         "images":[
-            "/images/Genless/Genless1.jpg",
-            "/images/Genless/Genless2.jpg",
-            "/images/Genless/Genless3.jpg",
-            "/images/Genless/Genless4.jpg",
-            "/images/Genless/Genless5.jpg"
+            {"Path":"/images/Genless/Genless1.jpg", "imageText": ""},
+            {"Path":"/images/Genless/Genless2.jpg", "imageText": ""},
+            {"Path":"/images/Genless/Genless3.jpg", "imageText": "I believe creating a storyline was the key factor of this brief. My solution of how to use this 3-5frames to market the buyers guide was to have a simple Q&A. I read through the guide thoroughly and picked 2 useful info that I believe are one of the common questions or thoughts that most people would have, especially the ones who never experienced EV before. So the first and the third frame throw questions and the second and the fourth frame answers to it. The last frame as you can see below is the call to action message condensing the fact that there is an EV guide available with more details online."},
+            {"Path":"/images/Genless/Genless4.jpg", "imageText": ""},
+            {"Path":"/images/Genless/Genless5.jpg", "imageText": ""},
+            {"Path":"/images/Genless/Genless6.jpg", "imageText": ""}
         ],
         "video": "/images/Genless/GenlessVideo.mp4"
-
     },
     {
         "name": "Creambly",
         "about": "Creambly (Creators Assembly) is a web-based professional networking platform which enables the building the businesses of individuals who specialise in any facet of creative or competitive online content creation. The goal of this project was to build a brand, app and a website for the business. Similar to LinkedIn, this platform will include: public-facing customizable user profiles, filter-based network search options, a system by which users can initiate communication, and a place medium for community-wide posting.",
         "images":[           
-            "/images/Creambly/Creambly1.jpg",
-            "/images/Creambly/Creambly2.jpg",
-            "/images/Creambly/Creambly3.jpg",
-            "/images/Creambly/Creambly4.jpg",
-            "/images/Creambly/Creambly5.jpg",
-            "/images/Creambly/Creambly6.jpg",
-            "/images/Creambly/Creambly7.jpg",
-            "/images/Creambly/Gif animation.gif"
+            {"Path":"/images/Creambly/Creambly1.jpg",  "imageText": ""},
+            {"Path":"/images/Creambly/Creambly2.jpg", "imageText": ""},
+            {"Path":"/images/Creambly/Creambly3.jpg", "imageText": ""},
+            {"Path":"/images/Creambly/Creambly4.jpg", "imageText": ""},
+            {"Path":"/images/Creambly/Creambly5.jpg", "imageText": ""},
+            {"Path":"/images/Creambly/Creambly6.jpg","imageText": ""},
+            {"Path":"/images/Creambly/Creambly7.jpg", "imageText": ""},
+            {"Path":"/images/Creambly/Gif animation.gif", "imageText": ""}
         ]        
     },
     {
         "name": "LucidStand",
         "about": "LucidStand is a trusted review site collecting ratings and reviews on professional employees from all sectors. LucidStand is to guide people looking for a way to find trustworthy professionals that perform high-quality work. The goal of this project was to build a brand and a website for the business, to make it easy for users to focus on main information and navigate on website, as well as make UI modern and simple.",
         "images":[
-            "/images/LucidStand/LucidStand Cindy Web1.jpg",
-            "/images/LucidStand/LucidStand Cindy Web2.jpg",
-            "/images/LucidStand/LucidStand Cindy Web3.jpg",
-            "/images/LucidStand/LucidStand Cindy Web4.jpg",
-            "/images/LucidStand/LucidStand Cindy Web5.jpg",
-            "/images/LucidStand/LucidStand Cindy Web6.jpg",
-            "/images/LucidStand/LucidStand Cindy Web7.jpg"
-        ],        
-        "video": ""
+            {"Path":"/images/LucidStand/LucidStand Cindy Web1.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web2.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web3.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web4.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web5.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web6.jpg", "imageText": ""},
+            {"Path":"/images/LucidStand/LucidStand Cindy Web7.jpg", "imageText": ""}
+        ]
     },
     {
         "name": "IPA",
-        "subhedding": "International Property Awards 2019/2020.",
-        "about": "The International Property Awards recognise the highest levels of achievement by companies operating in all sectors of the property and real estate industry. The awards are open to residential and commercial property professionals from around the globe. This is one of the biggest annual projects taken by in-house marketing team. As a result of that Barfoot & Thompson have won many awards since 2014. For this year’s entry, my role was to design and art direct this project. The brief was to create a company portfolio based on the requirements of four different submissions, each submission requires a book, USB, entry form and presentation box. The project ran for 3 months from September to November 2019 and involved 12+ experts from all divisions.    ",
+        "about": "This project is Barfoot & Thompson’s submission to the International Property Awards 2019/2020. The project ran for 4 months from August to November 2019 and involved 12+ experts from all divisions. My role was a graphic designer/art director exploring a diverse range of design areas such as packaging design and editorial design. The brief was to create a company portfolio based on the requirements of four different submissions, each submission requires a book, USB, entry form and presentation box.",
         "images":[
-            "/images/IPA/IPA1.jpg",
-            "/images/IPA/IPA2.jpg",
-            "/images/IPA/IPA3.jpg",
-            "/images/IPA/IPA4.jpg",
-            "/images/IPA/IPA5.jpg"
-        ],        
-        "video": ""
+            {"Path":"/images/IPA/IPA1.jpg", "imageText": "The main box (also known as mother box) is to house four individual submission boxes. The artistic impression of New Zealand map is printed on a gold foil across the lid to represent the idea of opening up a world-class property opportunity in New Zealand. This is also presented with a short phrase ‘Opening the doors to New Zealand’ along with the company logo. The few considerations I had was a) to find the right material that can hold up to 20kg (Total weight expected), b) to place the New Zealand motif into the right position that can run over two surfaces only due to the tight budget and c) to come up with an appropriate solution to keep the lid closed tight but smooth enough to open."},          
+            {"Path":"/images/IPA/IPA2.jpg", "imageText": "The four individual submission boxes sit in the mother box, stacked on top of each other. Each box contains one book, one USB and hard copy supporting materials. The biggest challenge we had every year was to fit a lot of hard copy materials into this box which is highly restricted in size (dimension) and weight (5kg). I tried to keep the inner tray as thin as possible to secure more space for the hard copies but to accommodate a decent height of book, 10mm was the best option. I’ve added a ribbon pull tag on the tray for easier access to the book and hard copies underneath."},
+            {"Path":"/images/IPA/IPA3.jpg", "imageText": "I have created four books with approximately 60-90 pages each. The book was in a square format for the past 3 years but I have changed it to portrait layout to cut down some page numbers. Because of the box size restrictions and amount of documents and contents to fit in, the book had to be thinner. By doing this I was able to cut down 10 to 20 pages each book. This also allowed me to include more visual references. The contents were supplied by our communications team, photography was produced by our external photographer under my direction."},
+            {"Path":"/images/IPA/IPA4.jpg", "imageText": ""},
+            {"Path":"/images/IPA/IPA5.jpg", "imageText": ""}
+            
+        ]
     },
     {
         "name": "Anual Report",
         "subhedding": "Property Management Annual Review.",
         "about": "This is an internal booklet detailing how property management has gone through the year. It is a 28 page long document, the majority of the contents are graphs, stats and icons which I have created them to comply with the Barfoot & Thompson brand.",
         "images":[
-            "/images/AnnualReport/Barfoot Annual Report1.jpg",
-            "/images/AnnualReport/Barfoot Annual Report2.jpg",
-            "/images/AnnualReport/Barfoot Annual Report3.jpg",
-            "/images/AnnualReport/Barfoot Annual Report4.jpg",
-            "/images/AnnualReport/Barfoot Annual Report5.jpg",
-            "/images/AnnualReport/Barfoot Annual Report6.jpg"
-        ],        
-        "video": ""
+            {"Path":"/images/AnnualReport/Barfoot Annual Report1.jpg", "imageText": ""},
+            {"Path":"/images/AnnualReport/Barfoot Annual Report2.jpg", "imageText": ""},
+            {"Path":"/images/AnnualReport/Barfoot Annual Report3.jpg", "imageText": ""},
+            {"Path":"/images/AnnualReport/Barfoot Annual Report4.jpg", "imageText": ""},
+            {"Path":"/images/AnnualReport/Barfoot Annual Report5.jpg", "imageText": ""},
+            {"Path":"/images/AnnualReport/Barfoot Annual Report6.jpg", "imageText": ""}      
+        ]
     },
     {
         "name": "Conferenz EDM",
         "images":[
-            "/images/Conferenz/Conferenz1.jpg",
-            "/images/Conferenz/Conferenz2.jpg",
-            "/images/Conferenz/Conferenz3.jpg",
-            "/images/Conferenz/Conferenz4.jpg",
-            "/images/Conferenz/Conferenz5.jpg"
-        ],        
-        "video": ""
-
+            {"Path":"/images/Conferenz/Conferenz1.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/Conferenz2.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/Conferenz3.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/Conferenz4.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/Conferenz5.jpg", "imageText": ""}  
+        ]       
     }
 ]
