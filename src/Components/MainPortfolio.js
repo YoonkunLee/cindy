@@ -37,7 +37,7 @@ export default class Portfolio extends Component {
                         <img className="projectIcon" src={process.env.PUBLIC_URL + "/images/MainPage/Projects.png" } width="140px" alt="Main Banner"></img> 
                         <div className="col-12 col-md-12">
                         {mainPageData.map((main) =>{
-                            return<div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding"><figure className="effect-lily">
+                            return<div className="col-lg-6 col-md-12 col-sm-12 float-left nopadding backgoundcolorWhite"><figure className="effect-lily">
                                 <img src={process.env.PUBLIC_URL + main.image } alt="Main Banner"></img> 
                                 <figcaption  onClick={this.show(main.id)} id={main.id}>
                                         <div>
@@ -64,9 +64,10 @@ export default class Portfolio extends Component {
                                                 }
                                                 else{
                                                     return <FadeInSection key={image}>
-                                                        <div>
+                                                        <div className="popuptextmargin">
                                                             <img className="marginbottom" alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image.Path}></img>  
-                                                            <div className="popuptextmargin textStyleBody">{image.imageText}</div>                                                          
+                                                            <div className="textBold textStyleBody">{image.imageHeading} <a href={image.link} target="_blank" rel="noopener noreferrer">{image.link}</a></div>
+                                                            <div className="textStyleBody">{image.imageText}</div>                                                                                                                    
                                                         </div>                                                        
                                                     </FadeInSection>
                                                     

@@ -71,12 +71,14 @@
     },
     {
         "name": "Conferenz EDM",
+        "about": "The goal of this project is to revamp the existing monthly newsletter and turn it into a weekly newsletter to keep people engaged with Conferenz. As well as re-designing the monthly newsletter template, a new branding was also required and reworking the OnDemand page a bit to house content there.",
         "images":[
-            {"Path":"/images/Conferenz/Conferenz1.jpg", "imageText": ""},
-            {"Path":"/images/Conferenz/Conferenz2.jpg", "imageText": ""},
-            {"Path":"/images/Conferenz/Conferenz3.jpg", "imageText": ""},
-            {"Path":"/images/Conferenz/Conferenz4.jpg", "imageText": ""},
-            {"Path":"/images/Conferenz/Conferenz5.jpg", "imageText": ""}  
+            {"Path":"/images/Conferenz/CFZ Connect1.jpg", "imageHeading": "Weekly Newsletter (EDM)", "imageText": "The existing template had grown clunky and tired over the last few years so I have presented the new look. We have created a new identity called 'Conferenz Connect'. The top banner can be replaced as required; we want to avoid using the same banner every time so we have a rotation of 3-4 different backgrounds). With this template, we can showcase 5+ contents, we can highlight the most powerful content on the top. "},
+            {"Path":"/images/Conferenz/CFZ Connect2.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/CFZ Connect3.jpg", "imageHeading": "On-demand Page ", "link":"https://www.conferenz.co.nz/connect","imageText": "This is where we store all the contents sent out through the EDM. This page was set up long time ago with some contents uploaded but most of them were outdated because no one looked after it. As well as launching the new EDM we decided to revamp the page, I made a visual connection to the EDM by placing the same logo and similar style of layout. "},
+            {"Path":"/images/Conferenz/CFZ Connect4.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/CFZ Connect5.jpg", "imageText": ""},
+            {"Path":"/images/Conferenz/CFZ Connect6.jpg", "imageText": ""}
         ]       
     }
 ]
