@@ -80,5 +80,32 @@
             {"Path":"/images/Conferenz/CFZ Connect5.jpg", "imageText": ""},
             {"Path":"/images/Conferenz/CFZ Connect6.jpg", "imageText": ""}
         ]       
+    },
+    {
+        "name": "CFO Modiste",
+        "about": "",
+        "platForm": "Platform:",
+        "platFormDescription": " Web, Mobile",
+        "role": "Role:",
+        "roleDescription": "UX & UI Designer",
+
+        "projectHeading1": "Objective: ",
+        "projectHeading2": "Background: ",
+        "projectHeading3": "User Observations: ", 
+        "projectDetail1": "Mobi-site is a web-based event management application. While the app is web responsive, it was mainly built andused for mobile users on the event day. However, withmost of the events now running both live and virtual,there are more demand on users accessing the app fromdesktop environment. The goal for this project is toimprove the user interface to provide a better userexperience for non-mobile users.",
+        "projectDetail2": "Mobi-site’s main functions are to keep track of the speakers,participants and plan out the schedule as well assubmitting questions and get in touch with the sponsorsetc. The group of users are; delegates (event participants),speakers, sponsors and the internal staff including eventleads and event producers.",
+        "projectDetail3": "I have talked to few groups of users and summarised the problems/improvements they want.",
+        "images":[
+            {"Path":"/images/CFO_mobisite/Mobisite_User Observation.jpg", "imageHeading": "User Journey:", "imageText": "This is how the current user journey is from the first visit to look through ageda and speaker page."},
+            {"Path":"/images/CFO_mobisite/Mobisite_User-Journey.jpg", "imageHeading": "Pain Point: ", "imageText": "While the majority of functions are clearly working, there are 2 pain points", "imageText1": "1. There is 3 sec long loading time every time you move around or refresh the page. I have highlighted the moment in red circle (see the user journey map),We are currently using this loading time to expose our headline sponsor logo. However users have noted that this is clearly not working for them so this needs to be fixed, also find the appropriate solutions for sponsors.", "imageText2": "2. Navigation issue. The current mobisite don’t seem to support navigation between pages but make users to return to the home page before they move to the next page. With 3 seconds of loading to go back to the home page and move to the next page isn’t great idea. Fast and efficient navigation is needed."},
+            {"Path":"/images/CFO_mobisite/Mobisite_Painpoint.jpg", "imageHeading": "Concept sketch"},
+            {"Path":"/images/CFO_mobisite/Mobisite_Concept-sketch.jpg", "imageHeading": "Wireframes"},
+            {"Path":"/images/CFO_mobisite/Mobisite_wireframe1.jpg", "imageText": ""},
+            {"Path":"/images/CFO_mobisite/Mobisite_wireframe2.jpg", "imageHeading": "T&C Page"},           
+            {"Path":"/images/CFO_mobisite/Mobisite_tnc page.jpg", "imageHeading": "Home Page:", "imageText": "This is how I see the current home page from my mobile. While 3x3 looks nice, I don’t think this is the best practice for both desktop/mobile view. Mobile works best with vertical layout when desktop works best with horizontal layout. So I imagined that 3x3 could compromise both layout but the reality isn’t. So by keeping the buttons 8 or 10 (even numbers) it can be placed horizontally on desktop and stack by 2 in mobile. "},
+            {"Path":"/images/CFO_mobisite/Mobisite_homepage.jpg", "imageText": ""},
+            {"Path":"/images/CFO_mobisite/Mobisite_agenda-page.jpg", "imageText": ""},
+            {"Path":"/images/CFO_mobisite/Mobisite_speaker-page.jpg", "imageText": ""}
+        ]       
     }
 ]

@@ -51,8 +51,16 @@ export default class Portfolio extends Component {
                                             <div className="textStyleTitle">About Project</div>       
                                             <div className="textStyleBody">{PortfolioData[this.state.id].subhedding}</div><br/>
                                             <div className="textStyleBody">{PortfolioData[this.state.id].about}</div><br/>
-                                            <div className="textStyleBody">{PortfolioData[this.state.id].projectDetail1}</div>
-                                            <div className="textStyleBody">{PortfolioData[this.state.id].projectDetail2}</div>                                                                                      
+                                            <div className="textBold textStyleBody">{PortfolioData[this.state.id].role}</div>
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].roleDescription}</div>
+                                            <div className="textBold textStyleBody">{PortfolioData[this.state.id].platForm}</div>
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].platFormDescription}</div>
+                                            <div className="textBold textStyleBody">{PortfolioData[this.state.id].projectHeading1}</div>
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].projectDetail1}</div><br/>
+                                            <div className="textBold textStyleBody">{PortfolioData[this.state.id].projectHeading2}</div>
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].projectDetail2}</div><br/>  
+                                            <div className="textBold textStyleBody">{PortfolioData[this.state.id].projectHeading3}</div>
+                                            <div className="textStyleBody">{PortfolioData[this.state.id].projectDetail3}</div><br/>                                                                                     
                                         </div>                                                       
                                         <div className="list">                                                                                
                                             {PortfolioData[this.state.id].images.map((image) =>{  
@@ -67,13 +75,13 @@ export default class Portfolio extends Component {
                                                         <div className="popuptextmargin">
                                                             <img className="marginbottom" alt={image.alt} width="100%" effect="opacity" key={image.key} src={ process.env.PUBLIC_URL + image.Path}></img>  
                                                             <div className="textBold textStyleBody">{image.imageHeading} <a href={image.link} target="_blank" rel="noopener noreferrer">{image.link}</a></div>
-                                                            <div className="textStyleBody">{image.imageText}</div>                                                                                                                    
+                                                            <div className="textStyleBody">{image.imageText}</div>       
+                                                            <div className="textStyleBody">{image.imageText1}</div>
+                                                            <div className="textStyleBody">{image.imageText2}</div>                                                                                                             
                                                         </div>                                                        
-                                                    </FadeInSection>
-                                                    
+                                                    </FadeInSection>                                                    
                                                 }                                                                                  
-                                            })} 
-                                                        
+                                            })}                                                        
                                         </div>   
                                     </div>               
                                 </Rodal>
@@ -102,7 +110,7 @@ function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
     const domRef = React.useRef();
 
-    if(setVisible !== true){}
+    if(setVisible !== true && isVisible !== true){}
     React.useEffect(() => {      
             const observer = new IntersectionObserver(entries => {               
                 entries.forEach(entry => setVisible(entry.isIntersecting));

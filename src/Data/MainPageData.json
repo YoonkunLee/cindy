@@ -29,5 +29,10 @@
         "id": "5",
         "name": "Conferenz EDM",
         "image": "/images/MainPage/Thumbnail5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "CFO Mobisite",
+        "image": "/images/MainPage/Thumbnail5.jpg"
     }
 ]
